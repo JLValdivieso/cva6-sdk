@@ -1,0 +1,7 @@
+devices:
+  - id: 0
+    type: "net"
+    mmio_addr: 0x30000000
+    data_plane: virtio
+    tap_name: "tap0"
+    mac_addr: "52:54:00:aa:bb:01"
